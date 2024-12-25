@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    margin: 0 3%;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img{
+    width: 50%;
+}
+
+.item-main{
+    text-align: center;
+}
