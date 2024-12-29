@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    background-color: #D9EAFD;
+    /* background-color: #F8FAFC; */
+    /* background-color: #BCCCDC; */
+    /* background-color: #9AA6B2; */
 }
 
 .container{
@@ -20,4 +24,12 @@
 
 .item-main{
     text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+ul{
+    list-style: none;
 }
