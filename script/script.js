@@ -1,12 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
   const navBtn = document.querySelector(".menu"),
         nav = document.querySelector(".navbar"),
-        closeBtn = document.querySelector('.close');
+        closeBtn = document.querySelector('.close'),
+        body = document.querySelector('body');
 
   function adaptive() {
-    window.innerWidth < 1000
-      ? nav.classList.toggle("hidden")
-      : navBtn.classList.toggle("hidden");
+    function adaptiveWindow(selector_1, selector_2) {
+      window.innerWidth < 1000
+      ? selector_1.classList.toggle("hidden")
+      : selector_2.classList.toggle("hidden");
+    }
+
+    adaptiveWindow(nav, navBtn);
   }
 
   function hide(selector){
@@ -19,10 +24,12 @@ document.addEventListener("DOMContentLoaded", () => {
   adaptive();
   
   navBtn.addEventListener('click', ()=>{
-        hide(nav);
+    hide(nav);
+    body.classList.toggle('background-color-body');
   })
 
   closeBtn.addEventListener('click', () =>{
     hide(nav);
+    body.classList.toggle('background-color-body');
   })
 });

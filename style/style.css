@@ -59,6 +59,7 @@ ul {
 
 li{
     cursor: pointer;
+    margin-right: 2%;
 }
 
 li:hover{
@@ -73,6 +74,9 @@ li:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #BCCCDC;
+    height: 100%;
+    left: 0px;
 }
 
 .callback{
@@ -107,6 +111,16 @@ li:hover{
     right: 10%;
     bottom: 85%;
 }
+
+.background-color-body{
+    background-color: rgba(0, 0, 0, 0.689);
+}
+
+@media screen and (min-width: 1000px) {
+    .close{
+        display: none;
+    }
+  }
 
 /* main */
 
