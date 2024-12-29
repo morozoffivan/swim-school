@@ -5,26 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>Школа плавания</title>
 </head>
 
 <body>
-    <section id="header">
+    <section id="header" class="background-color-header color-main">
         <div class="container">
-            <button class="menu">
+            <button class="menu color-main background-color-header fixed-position">
                 <i class="fa-solid fa-bars"></i>
             </button>
-            <nav class="navbar">
-                <ul>
+            <nav>
+        
+                <ul class="navbar oswald-light ">
                     <li>О нас</li>
                     <li>Услуги</li>
                     <li>Стоимость</li>
                     <li>Скидки и акции</li>
                     <li>Контакты</li>
-                    <button>Обратный звонок</button>
+                    <li class="callback">Обратный звонок</li>
+                    <div class="close">X</div>
                 </ul>
+                
             </nav>
-            
+
         </div>
     </section>
     <section id="main">
@@ -44,7 +50,7 @@
                             <p>и повышению иммунитета.</p>
                         </div>
                         <div class="item-submain">
-                            
+
                         </div>
                     </div>
                     <div class="gift-main">
@@ -61,4 +67,5 @@
     <script src="https://kit.fontawesome.com/8b41cb6c67.js" crossorigin="anonymous"></script>
     <script src="./script/script.js"></script>
 </body>
+
 </html>

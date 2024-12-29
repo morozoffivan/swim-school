@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const navBtn = document.querySelector(".menu"),
-    nav = document.querySelector(".navbar");
+        nav = document.querySelector(".navbar"),
+        closeBtn = document.querySelector('.close');
 
   function adaptive() {
     window.innerWidth < 1000
@@ -10,11 +11,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function hide(selector){
     selector.classList.toggle('hidden');
+    selector.classList.toggle('nav-column');
+    selector.classList.toggle('font-size-nav-mobile');
+    selector.classList.toggle('fixed-position');
 }
 
   adaptive();
   
   navBtn.addEventListener('click', ()=>{
         hide(nav);
+  })
+
+  closeBtn.addEventListener('click', () =>{
+    hide(nav);
   })
 });

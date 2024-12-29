@@ -1,35 +1,126 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
-    background-color: #D9EAFD;
-    /* background-color: #F8FAFC; */
-    /* background-color: #BCCCDC; */
-    /* background-color: #9AA6B2; */
 }
 
-.container{
+.container {
     margin: 0 3%;
-}
-
-.container-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-img{
-    width: 50%;
-}
-
-.item-main{
-    text-align: center;
 }
 
 .hidden {
     display: none;
 }
 
-ul{
+/* colors */
+.background-color-header {
+    background-color: #D9EAFD;
+}
+
+.color-main {
+    color: #5e66d2;
+}
+
+.background-color-main{
+    background-color: #F8FAFC;
+}
+
+.background-color-footer{
+    background-color: #BCCCDC;
+}
+
+.oswald-bold {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
+
+/* fonts */
+
+.oswald-light {
+    font-family: "Oswald", serif;
+    font-weight: 400;
+}
+
+
+
+/* header */
+
+#header{
+    height: max-content;
+}
+
+ul {
     list-style: none;
+    font-size: 46px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    color:#5e66d271;
+}
+
+.font-size-nav-mobile {
+    font-size: 24px;
+}
+
+.nav-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.callback{
+    padding: 1%;
+    border-radius: 1.875vw;
+    border: 1px solid #5e66d271;
+}
+
+.callback:hover{
+    color:#1924bc;
+    border: 1px solid #1924bc;
+}
+
+.menu{
+    padding: 1%;
+    border-radius: 1.875vw;
+    border: 1px solid #5e66d271;
+}
+
+.menu:hover{
+    color:#1924bc;
+    border: 1px solid #1924bc;
+}
+
+.fixed-position{
+    position: fixed;
+    z-index: 9999;
+}
+
+.close {
+    position: absolute;
+    right: 10%;
+    bottom: 85%;
+}
+
+/* main */
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img {
+    width: 50%;
+}
+
+.item-main {
+    text-align: center;
 }
