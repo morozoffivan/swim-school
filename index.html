@@ -51,8 +51,10 @@
               />
               <div class="gift">Первое занятие бесплатно</div>
               <button class="gift-btn oswald-light">Получить подарок</button>
-              <div class="gift-description">
+              <h1 class="gift-description">
                 Откройте мир водных приключений в Краснодаре!
+              </h1>
+              <div class="gift-description">
                 Мы приглашаем на занятия в бассейне, разработанные специально
                 для детей, включая грудничковое плавание.
               </div>
@@ -105,48 +107,58 @@
 
     <section id="serves">
         <div class="container">
-            <h2 class="oswald-bold">Услуги</h2>
+            <h2 class="oswald-bold color-main">Услуги</h2>
             <div class="container">
                 <div class="flex flex-serves">
 
                     <div class="serves-item oswald-bold">
-                        <h3>Название</h3>
-                        <p class="oswald-light">Описание</p>
+                        <h3>Индивидуальные занятия для детей</h3>
+                        <p class="oswald-light">Данным направлением мы помогаем детям освоить базовые навыки плавания, развить координацию движений и укрепить доверие к воде. Занятия проходят в игровой форме, с использованием ярких игрушек и музыкальных элементов, что делает обучение легким и приятным.</p>
                     </div>
 
                     <div class="serves-item oswald-bold">
-                        <h3>Название</h3>
-                        <p class="oswald-light">Описание</p>
-                    </div>
-
-                    <div class="serves-item">
-                        <h3>Название</h3>
-                        <p class="oswald-light">Описание</p>
+                        <h3>Групповое занятие "Литл Фиш" для детей от 3 до 6 лет</h3>
+                        <p class="oswald-light">Это уникальная программа, созданная специально для малышей, которые только начинают знакомство с водой. Цель занятий – научить ребенка чувствовать себя комфортно в бассейне, освоить базовые навыки плавания и, самое главное, привить любовь к воде и движению.  </p>
                     </div>
 
                     <div class="serves-item oswald-bold">
-                        <h3>Название</h3>
-                        <p class="oswald-light">Описание</p>
+                        <h3>Групповое занятие "Дельфинята" для детей от 6 до 9 лет</h3>
+                        <p class="oswald-light">В этой группе дети продолжают совершенствовать свои плавательные навыки, изучая более сложные техники и стили плавания. Мы уделяем особое внимание развитию выносливости, координации и уверенности в воде. Занятия включают элементы соревновательных игр и упражнений, что способствует развитию командного духа и стремлению к достижениям. Наши тренеры мотивируют ребят на успех и помогают им раскрыть свой потенциал.</p>
                     </div>
 
                     <div class="serves-item oswald-bold">
-                        <h3>Название</h3>
-                        <p class="oswald-light">Описание</p>
+                        <h3>Групповое занятие "Морские львы" для детей от 9 до 12 лет</h3>
+                        <p class="oswald-light">В этой группе ребята готовятся к серьезным спортивным достижениям, развивая силу, скорость и технику плавания. Мы фокусируемся на совершенствовании стиля, улучшении дыхания и повышении физической выносливости. Занятия включают интенсивные тренировки, участие в мини-соревнованиях и освоение новых водных дисциплин. Наши тренеры поддерживают высокий уровень мотивации и помогают ребятам достигать поставленных целей, готовясь к будущим победам.</p>
                     </div>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="oswald-light">
+
+      <div class="container">
+        <div class="flex flex-about">
+          <img class="img-about" src="./assets/about/about.jpg" alt="">
+          <div>
+            Привет! Меня зовут Морозов Иван. Я дипломированный тренер с более чем 10-летним опытом работы и 15-летним спортивным опытом. Я верю, что мотивация к занятиям должна возникать естественным образом, поэтому в моей работе я применяю исключительно педагогические методы. Моя цель - помочь каждому ученику раскрыть свой потенциал, создавая комфортную и поддерживающую обстановку. Давайте вместе достигать новых высот!
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="price">
       <div class="header">
         <!--Waves Container-->
-        <div class="wave-div">
+        <div class="wave-div footer-parallax">
           <svg
             class="waves"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 24 150 28"
+            viewBox="0 30 150 28"
             preserveAspectRatio="none"
             shape-rendering="auto"
           >
@@ -157,41 +169,47 @@
               />
             </defs>
             <g class="parallax">
+              <use xlink:href="#gentle-wave" x="50" y="0" fill="rgba(255,255,255,0.3)" />
+
               <use
-                xlink:href="#gentle-wave"
-                x="48"
-                y="0"
-                fill="rgba(255,255,255,0.3)"
-              />
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
             </g>
           </svg>
         </div>
         <!--Waves end-->
 
         <!--Content before waves-->
-        <div class="inner-header flex oswald-light">
+        <div class="inner-header flex oswald-light footer-wave">
           <div class="container">
-            <div class="container-main">
-              <img
-                class="img-main"
-                src="./assets/main/main-img.JPG"
-                alt="картинка плавания"
-              />
-              <div class="gift">Первое занятие бесплатно</div>
-              <button class="gift-btn oswald-light">Получить подарок</button>
-              <div class="gift-description">
-                Откройте мир водных приключений для вашего малыша в Краснодаре!
-                Мы приглашаем на занятия в бассейне, разработанные специально
-                для детей, включая грудничковое плавание. Наши программы
-                способствуют гармоничному развитию и укреплению иммунной
-                системы. В безопасной и радостной атмосфере малыши смогут
-                осваивать водную стихию.
+            <div class="flex">
+
+              <div class="serves-item oswald-bold">
+                  <h2>Индивидуальные занятия</h2>
+                  <p>1 занятие - 900р</p>
               </div>
-            </div>
+
+              <div class="serves-item oswald-bold">
+                  <h2>Групповые занятия</h2>
+                  <p>1 занятие - 900р</p>
+              </div>
+
+          </div>
+          </div>
           </div>
         </div>
       </div>
     </section>
+
+    <section id="footer">
+      <div class="container">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, adipisci repellendus recusandae, sapiente corrupti nam laboriosam autem molestiae sed est sint vero id sequi voluptates exercitationem eum tenetur rem ratione.
+      </div>
+    </section>
+
     <script
       src="https://kit.fontawesome.com/8b41cb6c67.js"
       crossorigin="anonymous"

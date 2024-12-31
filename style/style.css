@@ -238,3 +238,47 @@ a:hover{
     flex-direction: column;
   }
 }
+
+/* serves */
+
+.serves-item{
+  background-color: rgba(0,172,193,1);
+  padding: 3%;
+  margin: 3% 0;
+  border-radius: 1.8vh;
+  color: #ffffff;
+}
+
+.flex-serves{
+  gap:2%;
+}
+
+/* about */
+
+.flex-about{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+}
+
+.img-about {
+  width: 80%;
+  border-radius: 1.8vh;
+  text-align: center;
+}
+
+#about{
+  background-color: rgba(0,172,193,1);
+  color: #fff;
+}
+
+/* footer */
+
+.footer-wave{
+  background-color: rgba(0,172,193,1);
+}
+
+.footer-parallax{
+  background-color: rgba(0,172,193,1);
+}
