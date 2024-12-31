@@ -1,254 +1,201 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Школа плавания</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section id="header" class="background-color-header color-main">
-        <div class="container">
-            <button class="menu color-main background-color-header fixed-position">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-            <nav>
-        
-                <ul class="navbar oswald-light ">
-                    <li><a class="nav-link color-main" href="#main">О нас</a></li>
-                    <li><a class="nav-link color-main" href="#serves">Услуги</a></li>
-                    <li><a class="nav-link color-main" href="#price">Стоимость</a></li>
-                    <li><a class="nav-link color-main" href="#sale">Скидки и акции</a></li>
-                    <li><a class="nav-link color-main" href="#contacts">Контакты</a></li>
-                    <li class="callback">Обратный звонок</li>
-                    <li class="close"><i class="fa-solid fa-xmark"></i></li>
-                </ul>
-                
-            </nav>
-
-        </div>
+      <div class="container">
+        <button class="menu color-main background-color-header fixed-position">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav>
+          <ul class="navbar oswald-light">
+            <li><a class="nav-link color-main" href="#main">О нас</a></li>
+            <li><a class="nav-link color-main" href="#serves">Услуги</a></li>
+            <li><a class="nav-link color-main" href="#price">Стоимость</a></li>
+            <li>
+              <a class="nav-link color-main" href="#sale">Скидки и акции</a>
+            </li>
+            <li>
+              <a class="nav-link color-main" href="#contacts">Контакты</a>
+            </li>
+            <li class="close"><i class="fa-solid fa-xmark"></i></li>
+          </ul>
+        </nav>
+      </div>
     </section>
-
-    
-
 
     <section id="main">
+      <div class="header">
+        <!--Waves Container-->
 
-        <div class="header">
-
-            <!--Content before waves-->
-            <div class="inner-header flex">
-                <div class="container">
-                    <div class="container-main">
-                        <div class="item-main">
-                            <p>Оздоровительное</p>
-                            <p>плавание для детей</p>
-                            <p>от 0 до 7 лет</p>
-                            <div class="subcontainer-main">
-                                <div class="subitem-main">
-                                    <p>Предлагаем занятия в</p>
-                                    <p>бассейне для детей в Москве,</p>
-                                    <p>включая грудничковое</p>
-                                    <p>плавание. Способствуем</p>
-                                    <p>развитию малышей</p>
-                                    <p>и повышению иммунитета.</p>
-                                </div>
-                                <div class="item-submain">
-        
-                                </div>
-                            </div>
-                            <div class="gift-main">
-                                <p>Первое занятие в подарок</p>
-                                <button>Получить подарок</button>
-                            </div>
-                        </div>
-                        <div class="item-main">
-                            <img class="main-img" src="./assets/main/main-img.JPG" alt="main photo">
-                        </div>
-                    </div>
-                </div>
+        <!--Content before waves-->
+        <div class="inner-header flex oswald-light">
+          <div class="container">
+            <div class="container-main">
+              <img
+                class="img-main"
+                src="./assets/main/main-img.JPG"
+                alt="картинка плавания"
+              />
+              <div class="gift">Первое занятие бесплатно</div>
+              <button class="gift-btn oswald-light">Получить подарок</button>
+              <div class="gift-description">
+                Откройте мир водных приключений в Краснодаре!
+                Мы приглашаем на занятия в бассейне, разработанные специально
+                для детей, включая грудничковое плавание.
+              </div>
             </div>
-            
-            <!--Waves Container-->
-            <div class="wave-div">
-            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          </div>
+        </div>
+
+        <!--Waves Container-->
+        <div class="wave-div">
+          <svg
+            class="waves"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
+            preserveAspectRatio="none"
+            shape-rendering="auto"
+          >
             <defs>
-            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+              <path
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+              />
             </defs>
             <g class="parallax">
-            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="0"
+                fill="rgba(255,255,255,0.7)"
+              />
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="3"
+                fill="rgba(255,255,255,0.5)"
+              />
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="5"
+                fill="rgba(255,255,255,0.3)"
+              />
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
             </g>
-            </svg>
-            </div>
-            <!--Waves end-->
-            
+          </svg>
         </div>
+        <!--Waves end-->
+      </div>
+    </section>
 
-
-
-        
-
+    <section id="serves">
         <div class="container">
-            <div class="container-main">
-                <div class="item-main">
-                    <p>Оздоровительное</p>
-                    <p>плавание для детей</p>
-                    <p>от 0 до 7 лет</p>
-                    <div class="subcontainer-main">
-                        <div class="subitem-main">
-                            <p>Предлагаем занятия в</p>
-                            <p>бассейне для детей в Москве,</p>
-                            <p>включая грудничковое</p>
-                            <p>плавание. Способствуем</p>
-                            <p>развитию малышей</p>
-                            <p>и повышению иммунитета.</p>
-                        </div>
-                        <div class="item-submain">
+            <h2 class="oswald-bold">Услуги</h2>
+            <div class="container">
+                <div class="flex flex-serves">
 
-                        </div>
+                    <div class="serves-item oswald-bold">
+                        <h3>Название</h3>
+                        <p class="oswald-light">Описание</p>
                     </div>
-                    <div class="gift-main">
-                        <p>Первое занятие в подарок</p>
-                        <button>Получить подарок</button>
-                    </div>
-                </div>
-                <div class="item-main">
-                    <img class="main-img" src="./assets/main/main-img.JPG" alt="main photo">
-                </div>
-            </div>
-        </div>
 
-        <div class="container">
-            <div class="container-main">
-                <div class="item-main">
-                    <p>Оздоровительное</p>
-                    <p>плавание для детей</p>
-                    <p>от 0 до 7 лет</p>
-                    <div class="subcontainer-main">
-                        <div class="subitem-main">
-                            <p>Предлагаем занятия в</p>
-                            <p>бассейне для детей в Москве,</p>
-                            <p>включая грудничковое</p>
-                            <p>плавание. Способствуем</p>
-                            <p>развитию малышей</p>
-                            <p>и повышению иммунитета.</p>
-                        </div>
-                        <div class="item-submain">
+                    <div class="serves-item oswald-bold">
+                        <h3>Название</h3>
+                        <p class="oswald-light">Описание</p>
+                    </div>
 
-                        </div>
+                    <div class="serves-item">
+                        <h3>Название</h3>
+                        <p class="oswald-light">Описание</p>
                     </div>
-                    <div class="gift-main">
-                        <p>Первое занятие в подарок</p>
-                        <button>Получить подарок</button>
-                    </div>
-                </div>
-                <div class="item-main">
-                    <img class="main-img" src="./assets/main/main-img.JPG" alt="main photo">
-                </div>
-            </div>
-        </div>
 
-        <div class="container">
-            <div class="container-main">
-                <div class="item-main">
-                    <p>Оздоровительное</p>
-                    <p>плавание для детей</p>
-                    <p>от 0 до 7 лет</p>
-                    <div class="subcontainer-main">
-                        <div class="subitem-main">
-                            <p>Предлагаем занятия в</p>
-                            <p>бассейне для детей в Москве,</p>
-                            <p>включая грудничковое</p>
-                            <p>плавание. Способствуем</p>
-                            <p>развитию малышей</p>
-                            <p>и повышению иммунитета.</p>
-                        </div>
-                        <div class="item-submain">
+                    <div class="serves-item oswald-bold">
+                        <h3>Название</h3>
+                        <p class="oswald-light">Описание</p>
+                    </div>
 
-                        </div>
+                    <div class="serves-item oswald-bold">
+                        <h3>Название</h3>
+                        <p class="oswald-light">Описание</p>
                     </div>
-                    <div class="gift-main">
-                        <p>Первое занятие в подарок</p>
-                        <button>Получить подарок</button>
-                    </div>
-                </div>
-                <div class="item-main">
-                    <img class="main-img" src="./assets/main/main-img.JPG" alt="main photo">
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="container-main">
-                <div class="item-main">
-                    <p>Оздоровительное</p>
-                    <p>плавание для детей</p>
-                    <p>от 0 до 7 лет</p>
-                    <div class="subcontainer-main">
-                        <div class="subitem-main">
-                            <p>Предлагаем занятия в</p>
-                            <p>бассейне для детей в Москве,</p>
-                            <p>включая грудничковое</p>
-                            <p>плавание. Способствуем</p>
-                            <p>развитию малышей</p>
-                            <p>и повышению иммунитета.</p>
-                        </div>
-                        <div class="item-submain">
-
-                        </div>
-                    </div>
-                    <div class="gift-main">
-                        <p>Первое занятие в подарок</p>
-                        <button>Получить подарок</button>
-                    </div>
-                </div>
-                <div class="item-main">
-                    <img class="main-img" src="./assets/main/main-img.JPG" alt="main photo">
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="container-main">
-                <div class="item-main">
-                    <p>Оздоровительное</p>
-                    <p>плавание для детей</p>
-                    <p>от 0 до 7 лет</p>
-                    <div class="subcontainer-main">
-                        <div class="subitem-main">
-                            <p>Предлагаем занятия в</p>
-                            <p>бассейне для детей в Москве,</p>
-                            <p>включая грудничковое</p>
-                            <p>плавание. Способствуем</p>
-                            <p>развитию малышей</p>
-                            <p>и повышению иммунитета.</p>
-                        </div>
-                        <div class="item-submain">
-
-                        </div>
-                    </div>
-                    <div class="gift-main">
-                        <p>Первое занятие в подарок</p>
-                        <button>Получить подарок</button>
-                    </div>
-                </div>
-                <div class="item-main">
-                    <img class="main-img" src="./assets/main/main-img.JPG" alt="main photo">
                 </div>
             </div>
         </div>
     </section>
-    <script src="https://kit.fontawesome.com/8b41cb6c67.js" crossorigin="anonymous"></script>
-    <script src="./script/script.js"></script>
-</body>
 
+    <section id="about">
+      <div class="header">
+        <!--Waves Container-->
+        <div class="wave-div">
+          <svg
+            class="waves"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
+            preserveAspectRatio="none"
+            shape-rendering="auto"
+          >
+            <defs>
+              <path
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+              />
+            </defs>
+            <g class="parallax">
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="0"
+                fill="rgba(255,255,255,0.3)"
+              />
+            </g>
+          </svg>
+        </div>
+        <!--Waves end-->
+
+        <!--Content before waves-->
+        <div class="inner-header flex oswald-light">
+          <div class="container">
+            <div class="container-main">
+              <img
+                class="img-main"
+                src="./assets/main/main-img.JPG"
+                alt="картинка плавания"
+              />
+              <div class="gift">Первое занятие бесплатно</div>
+              <button class="gift-btn oswald-light">Получить подарок</button>
+              <div class="gift-description">
+                Откройте мир водных приключений для вашего малыша в Краснодаре!
+                Мы приглашаем на занятия в бассейне, разработанные специально
+                для детей, включая грудничковое плавание. Наши программы
+                способствуют гармоничному развитию и укреплению иммунной
+                системы. В безопасной и радостной атмосфере малыши смогут
+                осваивать водную стихию.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/8b41cb6c67.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script/script.js"></script>
+  </body>
 </html>
