@@ -118,6 +118,10 @@ a:hover{
   
 /* main */
 
+.container-main{
+  padding: 5%;
+}
+
 .gift{
   background-color: #fff;
   color: #1924bc;
@@ -253,7 +257,16 @@ a:hover{
   gap:2%;
 }
 
+.img-serves{
+  width: 50px;
+  border-radius: 50%;
+}
+
 /* about */
+
+#about{
+  background-image: url('../assets/price/5ee9b91ec92211efbc74a29930638501.webp');
+}
 
 .flex-about{
   flex-direction: column;
@@ -268,9 +281,27 @@ a:hover{
   text-align: center;
 }
 
-#about{
-  background-color: rgba(0,172,193,1);
+.about-desc{
   color: #fff;
+  background-color: #5e66d2;
+  margin: 2% 0;
+  border-radius: 1.8vh;
+}
+
+/* price */
+.flex-price{
+  flex-wrap: wrap;
+  gap: 3%;
+}
+
+.background-price{
+  background-color: #1924bc69;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  margin: 3% 0;
 }
 
 /* footer */
@@ -281,4 +312,35 @@ a:hover{
 
 .footer-parallax{
   background-color: rgba(0,172,193,1);
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  padding: 5% 0;
+  color: #1924bc;
+}
+
+.social>a{
+  color: #1924bc;
+}
+
+.social{
+  display: flex;
+  justify-content: end;
+  gap: 5%;
+}
+
+.subcontacts{
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  padding: 3% 0;
+}
+
+.img-footer-bg{
+  position: absolute;
+  z-index: -9999;
 }
