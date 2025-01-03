@@ -21,14 +21,12 @@
         </button>
         <nav>
           <ul class="navbar oswald-light">
-            <li><a class="nav-link color-main" href="#main">О нас</a></li>
+            <li><a class="nav-link color-main" href="#header">Главная</a></li>
+            <li><a class="nav-link color-main" href="#about">О нас</a></li>
             <li><a class="nav-link color-main" href="#serves">Услуги</a></li>
             <li><a class="nav-link color-main" href="#price">Стоимость</a></li>
             <li>
-              <a class="nav-link color-main" href="#sale">Скидки и акции</a>
-            </li>
-            <li>
-              <a class="nav-link color-main" href="#contacts">Контакты</a>
+              <a class="nav-link color-main" href="#footer">Контакты</a>
             </li>
             <li class="close"><i class="fa-solid fa-xmark"></i></li>
           </ul>
@@ -50,7 +48,7 @@
                 alt="картинка плавания"
               />
               <div class="gift">Первое занятие бесплатно</div>
-              <button class="gift-btn oswald-light">Получить подарок</button>
+              <button class="gift-btn oswald-light modal-btn">Получить подарок</button>
               <h1 class="gift-description">
                 Откройте мир водных приключений в Краснодаре!
               </h1>
@@ -142,7 +140,7 @@
                 </div>
 
                 <div class="btn-container">
-                  <button class="gift-btn oswald-light">Записаться на занятие</button>
+                  <button class="gift-btn oswald-light modal-btn">Записаться на занятие</button>
                 </div>
                 
             </div>
@@ -153,7 +151,7 @@
 
       <div class="container">
         <div class="flex flex-about">
-          <img class="img-about" src="./assets/about/about.jpg" alt="">
+          <iframe src="https://vkvideo.ru/video_ext.php?oid=44511332&id=456239393&hd=2&hash=8796cf4d5ef65709&autoplay=1" width="325" height="646" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
           <div class="about-desc">
             Привет! Меня зовут Морозов Иван. Я дипломированный тренер с более чем 10-летним опытом работы и 15-летним спортивным опытом. Я верю, что мотивация к занятиям должна возникать естественным образом, поэтому в моей работе я применяю исключительно педагогические методы. Моя цель - помочь каждому ученику раскрыть свой потенциал, создавая комфортную и поддерживающую обстановку. Давайте вместе достигать новых высот!
           </div>
@@ -213,7 +211,7 @@
 
           </div>
                 <div class="btn-container">
-                  <button class="gift-btn oswald-light">Записаться на занятие</button>
+                  <button class="gift-btn oswald-light modal-btn">Записаться на занятие</button>
                 </div>
           </div>
           </div>
@@ -241,6 +239,20 @@
       </div>
       </div>
     </section>
+
+    <div class="modal hidden">
+      <div class="modal__dialog">
+          <div class="modal__content">
+              <form action="#">
+                  <div class="modal__close">&times;</div>
+                  <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                  <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                  <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                  <button class="btn btn_dark btn_min">Перезвонить мне</button>
+              </form>
+          </div>
+      </div>
+  </div>
 
     <script
       src="https://kit.fontawesome.com/8b41cb6c67.js"
