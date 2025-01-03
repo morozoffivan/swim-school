@@ -151,7 +151,10 @@
 
       <div class="container">
         <div class="flex flex-about">
-          <iframe src="https://vkvideo.ru/video_ext.php?oid=44511332&id=456239393&hd=2&hash=8796cf4d5ef65709&autoplay=1" width="325" height="646" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+          <video width="50%" height="400" controls>
+            <source src="./assets/video/video5429539695296011854.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
           <div class="about-desc">
             Привет! Меня зовут Морозов Иван. Я дипломированный тренер с более чем 10-летним опытом работы и 15-летним спортивным опытом. Я верю, что мотивация к занятиям должна возникать естественным образом, поэтому в моей работе я применяю исключительно педагогические методы. Моя цель - помочь каждому ученику раскрыть свой потенциал, создавая комфортную и поддерживающую обстановку. Давайте вместе достигать новых высот!
           </div>
@@ -243,13 +246,13 @@
     <div class="modal hidden">
       <div class="modal__dialog">
           <div class="modal__content">
-              <form action="#">
-                  <div class="modal__close">&times;</div>
-                  <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
-                  <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
-                  <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
-                  <button class="btn btn_dark btn_min">Перезвонить мне</button>
-              </form>
+            <form action="process_form.php" method="post">
+              <div class="modal__close">&times;</div>
+              <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+              <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+              <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+              <button class="btn btn_dark btn_min">Перезвонить мне</button>
+          </form>
           </div>
       </div>
   </div>
